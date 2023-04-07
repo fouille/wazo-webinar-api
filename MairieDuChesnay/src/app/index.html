@@ -1,0 +1,139 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="../assets/img/wazo-logo.png">
+    <link rel="icon"  href="../assets/img/wazo-logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>
+        Mairie | Gestionnaire
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link href="../assets/css/material-dashboard.css" rel="stylesheet" />
+    <link href="../assets/css/toastr.min.css" rel="stylesheet">
+    <link href="../assets/css/style.min.css" rel="stylesheet">
+</head>
+
+<body class="page-complete">
+<div class="wrapper ">
+  <div class="sidebar" data-color="purple" data-background-color="white">
+    <div class="logo">
+        <center><img style="height: 100px; width: auto;" src="../assets/img/logo_rond_lechesnay_rocquencourt.png" /></center>
+    </div>
+    <div class="sidebar-wrapper">
+        <div class="user">
+            <div class="photo">
+                <img src="../assets/img/user.png" />
+            </div>
+            <div id="pbx_user_uuid" class="user-info"></div>
+        </div>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" data-toggle="collapse" href="#menusAccueil" aria-expanded="true">
+                    <i class="material-icons">dashboard</i>
+                    <p> Accueil
+                        <b class="caret"></b>
+                    </p>
+                </a>
+                <div class="collapse show" id="menusAccueil">
+                    <ul class="nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">
+                                <span class="sidebar-mini mt-1"> <i class="fa-regular fa-address-book fa-lg"></i> </span>
+                                <span class="sidebar-normal"> Contacts </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <div class="text-center text-dark version"></div>
+    </div>
+    <div class="sidebar-background"></div>
+  </div>
+    <div class="main-panel">
+      <nav class="navbar navbar-expand-lg navbar-transparent navbar-absolute fixed-top ">
+          <div class="container-fluid">
+              <div class="navbar-wrapper">
+                  <div class="navbar-minimize">
+                      <button id="minimizeSidebar" class="btn btn-just-icon btn-white btn-fab btn-round">
+                          <i class="material-icons text_align-center visible-on-sidebar-regular" style="color: #373737;">more_vert</i>
+                          <i class="material-icons design_bullet-list-67 visible-on-sidebar-mini" style="color: #373737;">view_list</i>
+                      </button>
+                  </div>
+                  <a class="navbar-brand" href="#">Gestionnaire de contacts</a>
+              </div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="navbar-toggler-icon icon-bar"></span>
+                  <span class="navbar-toggler-icon icon-bar"></span>
+                  <span class="navbar-toggler-icon icon-bar"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end">
+                  <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link logout" href="#">
+                        <i class="material-icons">logout</i> Déconnexion
+                        <p class="d-lg-none d-md-block">
+                          Déconnexion
+                        </p>
+                      </a>
+                    </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+        <div class="content">
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="card">
+                                <div class="card-header card-header-text card-header-primary">
+                                    <div class="card-text" style="width: 100%;">
+                                        <div class="row d-flex justify-content-between">
+                                            <div class="ml-4 col-md-4">
+                                                <div class="input-group mb-3 ">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text refresh text-white" id="iconLoader"><i class="fa fa-refresh fa-xl"></i></span>
+                                                        </div>
+                                                    <input id="searchbox" type="text" class="form-control search-bar" placeholder="Recherchez ici...(3 caractères minimum)" aria-label="Default" aria-describedby="iconLoader">
+                                                    </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-body">
+
+                                    <div class="table-responsive">
+                                        <table id="searchResults" class="display table table-hover table-striped" >
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">Nom</th>
+                                                    <th scope="col">Extension</th>
+                                                    <th scope="col">Etat</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="../assets/js/core/jquery.min.js"></script>
+<script src="../assets/js/core/popper.min.js"></script>
+<script src="../assets/js/core/bootstrap-material-design.min.js"></script>
+<script src="../assets/js/material-dashboard.js?v=2.2.2" type="text/javascript"></script>
+<script src="../assets/js/toastr.min.js"></script>
+
+</body>
+
+</html>

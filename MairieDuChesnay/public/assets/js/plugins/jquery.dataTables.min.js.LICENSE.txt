@@ -1,0 +1,91 @@
+/*!
+
+JSZip - A Javascript class for generating and reading zip files
+<http://stuartk.com/jszip>
+
+(c) 2009-2014 Stuart Knightley <stuart [at] stuartk.com>
+Dual licenced under the MIT license or GPLv3. See https://raw.github.com/Stuk/jszip/master/LICENSE.markdown.
+
+JSZip uses the library pako released under the MIT license :
+https://github.com/nodeca/pako/blob/master/LICENSE
+*/
+
+/*!
+ AutoFill 2.3.0
+ ©2008-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ Bootstrap 4 integration for DataTables' Responsive
+ ©2016 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ Bootstrap integration for DataTables' AutoFill
+ ©2015 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ Bootstrap integration for DataTables' Buttons
+ ©2016 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ Buttons for DataTables 1.5.2
+ ©2016-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ ColReorder 1.5.0
+ ©2010-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ DataTables 1.10.18
+ ©2008-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ DataTables Bootstrap 4 integration
+ ©2011-2017 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ FixedColumns 3.2.5
+ ©2010-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ FixedHeader 3.1.4
+ ©2009-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ KeyTable 2.4.0
+ ©2009-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ Responsive 2.2.2
+ 2014-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ RowGroup 1.0.3
+ ©2017-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ RowReorder 1.2.4
+ 2015-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ Scroller 1.5.0
+ ©2011-2018 SpryMedia Ltd - datatables.net/license
+*/
+
+/*!
+ Select for DataTables 1.2.6
+ 2015-2018 SpryMedia Ltd - datatables.net/license/mit
+*/

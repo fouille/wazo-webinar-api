@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.2.1",
+    "@webpack-cli/generators": "^3.0.1",
+    "webpack-auto-inject-version-next": "^1.2.4"
+  },
+  "version": "1.1.4",
+  "description": "Mairie Du Chesnay",
+  "name": "mairie-du-chesnay",
+  "scripts": {
+    "build": "webpack --mode=production --node-env=production",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "dev": "webpack-dev-server --config webpack.config.js --mode=development"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.20.2",
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^9.1.2",
+    "copy-webpack-plugin": "^11.0.0",
+    "dateformat": "^5.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.2",
+    "sweetalert2": "^11.7.0",
+    "webpack-dev-server": "^4.11.1",
+    "webpack-version-file": "^0.1.7"
+  }
+}
