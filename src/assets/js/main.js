@@ -36,7 +36,7 @@ export const wazo_auth = '/api/auth/0.1/token';
 
 //ATTENTION preciser au webi #4 l'erreur de version du endpoint
 // export const get_user = '/api/confd/0.1/users/';
-export const get_user = '/api/confd/1.1/users/';
+export const get_user = '/api/confd/1.1/users/';  //l'appel était erroné, je me suis trompé dans la version (initialement saisie "0.1")
 
 
 

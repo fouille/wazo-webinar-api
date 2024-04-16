@@ -4,7 +4,7 @@
     "@webpack-cli/generators": "^3.0.1",
     "webpack-auto-inject-version-next": "^1.2.4"
   },
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Webinaire",
   "name": "webinaire",
   "scripts": {
